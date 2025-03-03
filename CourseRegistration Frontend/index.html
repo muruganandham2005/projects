@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course Registration System</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: linear-gradient(to right, #6a11cb, #2575fc);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                flex-direction: column;
+                color: #fff;
+            }
+
+            h2 {
+                font-size: 2.5em;
+                margin-bottom: 20px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            }
+
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .button-link {
+                display: inline-block;
+                padding: 15px 30px;
+                font-size: 1.2em;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: #fff;
+                background-color: rgba(0, 123, 255, 0.8);
+                border: none;
+                border-radius: 50px;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+                transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+            }
+
+            .button-link:hover {
+                background-color: rgba(0, 123, 255, 1);
+                box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+            }
+
+            .button-link:active {
+                transform: translateY(5px);
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Click here for</h2>
+        <div class="button-container">
+            <a href="register.html" class="button-link">Register a Course</a>
+            <a href="available.html" class="button-link">Available Courses</a>
+            <a href="enrolled.html" class="button-link">Enrolled Students</a>
+        </div>
+    </body>
+</html>
