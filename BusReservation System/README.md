@@ -1,11 +1,19 @@
-Bus Ticket Reservation System :
-A console-based application implementing a Bus Ticket Reservation System using Object-Oriented Programming (OOP) principles.
+# **Bus Ticket Reservation System**
 
-Features
-1) Book bus tickets and check seat availability.
-2) Notify users when seats are unavailable.
-3) Modular design achieved through encapsulation, inheritance, and polymorphism.
+A console-based application for bus ticket reservations, developed using Object-Oriented Programming (OOP) principles to ensure modularity and scalability.
 
-Tech Stack
-1) Programming Language: Java
-2) Concepts: OOP Principles
+## **Features**
+- **Ticket Booking**: Allows users to book bus tickets.
+- **Seat Availability**: Displays available seats.
+- **Notifications**: Alerts users when seats are unavailable.
+- **OOP Concepts**: Implements encapsulation, inheritance, and polymorphism.
+
+## **Tech Stack**
+- Programming Language: Java
+- Key Concepts: OOP Principles
+
+## **How to Run**
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/muruganandham2005/projects
+
