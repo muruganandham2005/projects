@@ -1,4 +1,4 @@
-Bus Ticket Reservation System
+Bus Ticket Reservation System :
 A console-based application implementing a Bus Ticket Reservation System using Object-Oriented Programming (OOP) principles.
 
 Features
@@ -7,5 +7,5 @@ Features
 3) Modular design achieved through encapsulation, inheritance, and polymorphism.
 
 Tech Stack
-Programming Language: Java
-Concepts: OOP Principles
+1) Programming Language: Java
+2) Concepts: OOP Principles
